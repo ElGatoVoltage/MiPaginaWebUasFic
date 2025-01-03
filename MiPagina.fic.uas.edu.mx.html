@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facultad de Informática Culiacán</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f1ebd5;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(90deg, #003595 0%, #1d71b8 100%);
+            color: white;
+            padding: 10px 20px;
+            height: 150px;
+        }
+        header img {
+            height: 120px;
+        }
+        header h1 {
+            font-size: 1.8em;
+            margin: 0;
+        }
+        nav {
+            background-color: #003595;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 700;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+        .banner {
+            text-align: center;
+            background-color: #1d71b8;
+            color: white;
+            padding: 15px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .content {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .carousel {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding: 10px 0;
+        }
+        .carousel article {
+            flex: 0 0 300px;
+            border: 1px solid #ccc;
+            border-radius: 6.5deg;
+            background-color: #ffffff;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .carousel img {
+            max-width: 100%;
+            border-radius: 6.5deg;
+        }
+        footer {
+            text-align: center;
+            background-color: #003595;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Header -->
+    <header>
+        <img src="MiPagina.fic.uas.edu.mx_files/logo_uas.png" alt="Logo UAS">
+        <h1>Facultad de Informática Culiacán</h1>
+        <img src="MiPagina.fic.uas.edu.mx_files/logo_fic.png" alt="Logo FIC">
+    </header>
+
+    <!-- Secondary Banner -->
+    <div class="banner">
+        UNIVERSIDAD AUTÓNOMA DE SINALOA
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#oferta">Oferta Educativa</a></li>
+            <li><a href="#departamentos">Departamentos</a></li>
+            <li><a href="#alumnos">Alumnos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Carousel Section -->
+    <section class="content">
+        <h2>Noticias Recientes</h2>
+        <div class="carousel">
+            <article>
+                <img src="MiPagina.fic.uas.edu.mx_files/noticia1.jpg" alt="Convocatoria">
+                <h3>Convocatoria 2024-2025</h3>
+                <p>Convocatoria para unidades receptoras 2024-2025.</p>
+            </article>
+            <article>
+                <img src="MiPagina.fic.uas.edu.mx_files/noticia2.jpg" alt="Bienestar Universitario">
+                <h3>Bienestar Universitario</h3>
+                <p>Evita responder llamadas de números desconocidos.</p>
+            </article>
+            <article>
+                <img src="MiPagina.fic.uas.edu.mx_files/noticia3.jpg" alt="Olimpiada Informática">
+                <h3>Olimpiada Informática</h3>
+                <p>Resultados de la delegación Sinaloa en la Olimpiada Mexicana de Informática.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Sursum Versus - Universidad Autónoma de Sinaloa</p>
+    </footer>
+</body>
+</html>
